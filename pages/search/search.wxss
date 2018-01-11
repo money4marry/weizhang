@@ -1,0 +1,18 @@
+/* pages/search/search.wxss */
+input {
+  display: inline-block;
+}
+.search-box {
+  height: 100%;
+  background-color: red;
+  border-top: 1px solid transparent;  
+}
+.info {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.item-wrapper {
+  height: 50px;
+
+}

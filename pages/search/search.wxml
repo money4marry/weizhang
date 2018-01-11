@@ -1,0 +1,20 @@
+<view class='search-box'>
+  <view class='info'>
+    <view class='item-wrapper'>
+      <text>车牌类型</text>
+      <picker mode='selector' range='{{carType}}' bindchange='bindTypeChange'>{{currentCarType}}</picker>
+    </view>
+    <view class='item-wrapper'>
+      <text>车牌号码</text>
+      <input type='text' placeholder='请输入车牌号码'/>
+    </view>
+    <view class='item-wrapper'>
+      <text>车架号码</text>
+      <input type='text' placeholder='请输入车架号码'/>
+    </view>
+    <view class='item-wrapper'>
+      <text>发动机号</text>
+      <input type='text' placeholder='请输入发动机号'/>
+    </view>
+  </view>
+</view>
